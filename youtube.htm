@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Youtube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/second_header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+
+    <style>
+
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+    <div class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="hamburger">
+            <div class="youtube-home">
+                <a href="https://www.youtube.com" target="_self">
+                    <img class="youtube-logo" src="icons/youtube-logo.svg" alt="YouTube">
+                </a>
+                <div class="tooltip">YouTube Home</div>
+            </div>
+        </div>
+
+        <div class="middle-section">
+            <div class="search-wrapper">
+                <div class="search-container">
+                    <div class="search-left-icon">
+                        <img src="icons/search.svg" alt="search">
+                    </div>
+                    <input class="search-bar" type="text" placeholder="Search">
+                    <button class="search-button">
+                        <img class="search-icon" src="icons/search.svg" alt="search">
+                    </button>
+                </div>
+                <div class="tooltip">Search</div>
+            </div>
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="voice">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+
+        <div class="right-section">
+            <button class="create-button">
+                <span class="plus-icon">&plus;</span>
+                <span class="create-text">Create</span>
+            </button>
+            <div class="notifications-icon-container">
+                <img class="notifications-icon" src="icons/notifications.svg" alt="notifications">
+                <div class="notifications-count">9</div>
+                <div class="tooltip">Notifications</div>
+            </div>
+            <img class="current-user-pic" src="channel-pic/Aryan.jpg" alt="aryan">
+        </div>
+    </div>
+
+<!-- use of some semantic elements -->
+<!-- Second Header -->
+    <header class="second_header">
+        <button class="main_icons">All</button>
+        <button class="icons">Music</button>
+        <button class="icons">Gaming</button>
+        <button class="icons">AI</button>
+        <button class="icons">Trailers</button>
+        <button class="icons">Web Development</button>
+        <button class="icons">Mixes</button>
+        <button class="icons">Albums</button>
+        <button class="icons">Data Structure</button>
+        <button class="icons">Esports</button>
+        <button class="icons">Computer Programming</button>
+        <button class="icons">HTML</button>
+        <button class="icons">Watched</button>
+        <button class="icons">New to you</button>
+    </header>
+
+<!-- SideBar -->
+    <nav class="sidebar">
+
+        <a href="https://www.youtube.com/"
+        class="link"
+        target="_self">
+            <div class="sidebar-link">
+                    <img class="home" src="side-icons/home.svg" alt="home">
+                <div>Home</div>
+                <div class="tooltip">Home</div>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/shorts/jnhQr7-zZHA"
+        class="link"
+        target="_self">
+            <div class="sidebar-link">
+                    <img class="shorts" src="side-icons/youtube-shorts.svg" alt="shorts">
+                <div>Shorts</div>
+                <div class="tooltip">Shorts</div>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/feed/subscriptions"
+        class="link"
+        target="_self">
+            <div class="sidebar-link">
+                    <img class="subscriptions" src="side-icons/subscriptions.svg" alt="subscriptions">
+                <div>Subscriptions</div>
+                <div class="sub">Subscriptions</div>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/feed/you"
+        class="link"
+        target="_self">
+            <div class="sidebar-link">
+                    <img class="profile" src="side-icons/user-icon.svg" alt="profile">
+                <div>You</div>
+                <div class="tooltip">History</div>
+            </div>
+        </a>
+    </nav>
+
+
+<!-- Main Content -->
+    <main>
+        <section class="video-grid">
+
+        <a href="https://www.youtube.com/watch?v=AbkEmIgJMcU&list=RDAbkEmIgJMcU&start_radio=1"
+        class="video-previews"
+        target="_self">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail/hq720.avif" alt="youtube thumbnail" >
+                <div class="video-time">
+                    2:27
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic"  src="Channel-pic/channels4_profile.jpg" alt="channel pic" >
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Pal Pal
+                    </p>
+                    <p class="video-author">
+                        AFUSIC
+                    </p>
+                    <p class="video-views">
+                        43M views &#183; 3 months ago
+                    </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=LfaMVlDaQ24"
+        class="video-previews"
+        target="_self">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail/hq720 (1).avif" alt="youtube thumbnail" >
+                <div class="video-time">
+                    2:27
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic"  src="Channel-pic/unnamed.jpg" alt="channel pic" >
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Harvard CS50(2023)-Full Computer Science University Course
+                    </p>
+                    <p class="video-author">
+                        freeCodeCamp.org
+                    </p>
+                    <p class="video-views">
+                        6.8M views &#183; 1 year ago
+                    </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=EerdGm-ehJQ"
+        class="video-previews"
+        target="_self">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail/hq720(2).avif" alt="youtube thumbnail" >
+                <div class="video-time">
+                    2:27
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic"  src="Channel-pic/unnamed(1).jpg" alt="channel pic" >
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        JavaScript Tutorial FUll Course-Beginner to Pro
+                    </p>
+                    <p class="video-author">
+                        SuperSimpleDev
+                    </p>
+                    <p class="video-views">
+                        5.8M views &#183; 1 year ago
+                    </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/results?search_query=python+full+course"
+        class="video-previews"
+        target="_self">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail/hq720(3).avif" alt="youtube thumbnail" >
+                <div class="video-time">
+                    2:27
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic"  src="Channel-pic/unnamed(2).jpg" alt="channel pic" >
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Python Tutorial for beginners in Hindi | Complete Python Course 🔥
+                    </p>
+                    <p class="video-author">
+                        CodeWithHarry
+                    </p>
+                    <p class="video-views">
+                        11M views &#183; 1 year ago
+                    </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=yVdKa8dnKiE&t=1s"
+        class="video-previews"
+        target="_self">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail/hq720(4).jpg" alt="youtube thumbnail" >
+                <div class="video-time">
+                    2:27
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic"  src="Channel-pic/unnamed(3).jpg" alt="channel pic" >
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Re 1. Introduction to Recursion | Recursion Tree | Stack Space | Strivers A2Z DSA Course
+                    </p>
+                    <p class="video-author">
+                        take U forward
+                    </p>
+                    <p class="video-views">
+                        2.1M views &#183; 3 year ago
+                    </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=86CQq3pKSUw"
+        class="video-previews"
+        target="_self">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail/thumbnail-5.webp" alt="youtube thumbnail" >
+                <div class="video-time">
+                    11:17
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic"  src="Channel-pic/channel-5.jpeg" alt="channel pic" >
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Kadane's Algorithm to Maximum Sum Subarray Problem
+                    </p>
+                    <p class="video-author">
+                        CS Dojo
+                    </p>
+                    <p class="video-views">
+                        519K views &#183; 5 years ago
+                    </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=cZaNf2rA30k&t=20s"
+        class="video-previews"
+        target="_self">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail/hq720(5).jpg" alt="youtube thumbnail" >
+                <div class="video-time">
+                    2:27
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic"  src="Channel-pic/unnamed(4).jpg" alt="channel pic" >
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Introduction to Generative AI
+                    </p>
+                    <p class="video-author">
+                        Google Cloud
+                    </p>
+                    <p class="video-views">
+                        415K views &#183; 1 year ago
+                    </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk"
+        class="video-previews"
+        target="_self">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail/thumbnail-2.webp" alt="youtube thumbnail" >
+                <div class="video-time">
+                    8:22
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic"  src="Channel-pic/channel-2.jpeg" alt="channel pic" >
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Try Not To Laugh Challenge #9
+                    </p>
+                    <p class="video-author">
+                        Markiplier
+                    </p>
+                    <p class="video-views">
+                        19M views &#183; 4 years ago
+                    </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=kJQP7kiw5Fk&list=RDkJQP7kiw5Fk&start_radio=1"
+        class="video-previews"
+        target="_self">
+
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail/hq720(6).avif" alt="youtube thumbnail" >
+                <div class="video-time">
+                    9:13
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic"  src="Channel-pic/unnamed(5).jpg" alt="channel pic" >
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Luis Fonsi - Despacito ft. Daddy Yankee
+                    </p>
+                    <p class="video-author">
+                        Luis Fonsi
+                    </p>
+                    <p class="video-views">
+                        8.7B views &#183; 8 year ago
+                    </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=094y1Z2wpJg"
+        class="video-previews"
+        target="_self">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail/thumbnail-4.webp" alt="youtube thumbnail" >
+                <div class="video-time">
+                    22:09
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic"  src="Channel-pic/channel-4.jpeg" alt="channel pic" >
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        The Simplest Math Problem No One Can Solve - Collatz Conjecture
+                    </p>
+                    <p class="video-author">
+                        Veritasium
+                    </p>
+                    <p class="video-views">
+                        18M views &#183; 4 months ago
+                    </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY&t=1s"
+        class="video-previews"
+        target="_self">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail/thumbnail-1.webp" alt="youtube thumbnail" >
+                <div class="video-time">
+                    14:20
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic"  src="Channel-pic/channel-1.jpeg" alt="channel pic" >
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Talking Tech and AI with Google CEO Sunder Pichai!
+                    </p>
+                    <p class="video-author">
+                        Marques Brownlee
+                    </p>
+                    <p class="video-views">
+                        3.4M views &#183; 6 months ago
+                    </p>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg"
+        class="video-previews"
+        target="_self">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnail/thumbnail-6.webp" alt="youtube thumbnail" >
+                <div class="video-time">
+                    19:59
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic"  src="Channel-pic/channel-6.jpeg" alt="channel pic" >
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Anything You Can Fit In The Circle I&apos;ll Pay For
+                    </p>
+                    <p class="video-author">
+                        MrBeast
+                    </p>
+                    <p class="video-views">
+                        141M views &#183; 1 year ago
+                    </p>
+                </div>
+            </div>
+        </a>
+
+        </section>
+    </main>
+</body>
+</html>

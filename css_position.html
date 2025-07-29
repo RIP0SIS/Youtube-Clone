@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSS Position Practice</title>
+    <!-- floate above the webpage(appear like inline block) , Add another dimension to our webpage -->
+  </head>
+  <!--
+        Used when u want the element to resize with the page:
+
+        /* fixed to the top of the page when 0 or how far away from the top of the page */
+        top: 10px;
+        left: 50px;
+
+        /* Now if set in opposite the element will stretch */
+        bottom: 50px;
+        right: 90px;
+    -->
+  <body style="height: 3000px; padding-top: 60px; padding-left: 80px">
+
+
+    <!-- fixed: elements are placed in the browser window -->
+    <div
+      style="
+        background-color: black;
+        color: white;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+      "
+    >
+      header
+    </div>
+
+    <div
+      style="
+        background-color: green;
+        color: white;
+        position: fixed;
+        left: 0px;
+        top: 50px;
+        bottom: 0px;
+        width: 72px;
+      ">
+        side-bar
+        <!-- place elements relative to fixed elements -->
+        <div style="
+            background-color: red;
+            color: white;
+            position: absolute;
+            top: 0;
+            right: 0;
+            ">
+            x
+        </div>
+    </div>
+
+    <!-- absolute: elements are placed on the page -->
+    <div style="
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    ">
+      absolute
+    </div>
+
+    <div
+      style="
+        background-color: lightblue;
+        height: 200px;
+        width: 200px;
+        position: static;
+      "
+    >
+      div 1
+    </div>
+
+    <!-- relative: elements are placed on the elements u want -->
+    <div style="
+    background-color: lightpink;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    ">
+        div 2
+        <div style="
+            background-color: black;
+            color: white;
+            position: absolute;
+            right: 10px;
+            bottom: 10px
+            ">
+                5:00
+        </div>
+    </div>
+  </body>
+</html>

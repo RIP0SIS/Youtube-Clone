@@ -1,0 +1,98 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using what have learned</title>
+    <style>
+        .search-result {
+            margin-left: 4px;
+            margin-right: 4px;
+            font-size: 18px;
+          }
+
+      .alpha {
+        background-color: green;
+        color: white;
+        border: none;
+        cursor: progress;
+        font-size: 18px;
+        padding: 10px 16px 10px 16px;
+        transition: padding-top 3s,
+        padding-bottom 3s,
+        padding-left 3s,
+        padding-right 3s;
+      }
+      .alpha:hover {
+        padding-top: 36px;
+        padding-bottom: 36px;
+        padding-left: 72px;
+        padding-right: 72px;
+      }
+      .alpha:active {
+        padding: 0px 0px 0px 0px;
+      }
+
+      .click{
+        background-color: green;
+        border: none;
+        cursor: pointer;
+        color: white;
+        font-size: 18px;
+        padding: 10px 18px 10px 18px;
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+      }
+      .click:active{
+        box-shadow: none;
+        margin: 3px 0 0 3px;
+      }
+
+      .beta{
+        background-color: green;
+        border: none;
+        cursor: pointer;
+        color: white;
+        font-size: 18px;
+        padding: 10px 16px 10px 16px;
+        margin-left: 10px;
+        margin-right: 10px;
+        transition: padding 0.5s,
+                    margin 0.5s;
+      }
+      .beta:hover{
+        padding: 10px 28px 10px 28px;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-decoration: underline dotted red">Recreating designs</h1>
+    <h2>Pagination</h2>
+    <button style="border-radius: 2px; margin-right: 8px;">Back</button>
+    <!-- <ins>1</ins> <ins>2</ins> <ins>3</ins> <ins>4</ins> <ins>5</ins> -->
+    <a class="search-result" href="https://google.com">1</a>
+    <a class="search-result" href="https://google.com">2</a>
+    <a class="search-result" href="https://google.com">3</a>
+    <a class="search-result" href="https://google.com">4</a>
+    <a class="search-result" href="https://google.com">5</a>
+    <button style="border-radius: 2px; margin-left: 8px;">Next</button>
+
+    <hr>
+
+    <h2>Stretch</h2>
+    <button class="alpha">Stretch</button>
+
+    <br>
+
+    <h2>3D Click</h2>
+    <button class="click">Shadow</button>
+
+    <br>
+
+    <h2>Margin and padding</h2>
+    <button class="beta">One</button>
+    <button class="beta">Two</button>
+    <button class="beta">Three</button>
+
+  </body>
+</html>
