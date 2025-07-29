@@ -108,19 +108,3 @@ A responsive, semantic HTML & CSS clone of YouTube’s main interface—complete
 
 * **Grid Breakpoints**
   Change the media queries in `video.css` to adjust column counts.
-
----
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/awesome`)
-3. Commit your changes (`git commit -m 'Add awesome feature'`)
-4. Push to branch (`git push origin feature/awesome`)
-5. Open a Pull Request
-
----
-
-## License
-
-Distributed under the [MIT License](LICENSE). See `LICENSE` for details.
