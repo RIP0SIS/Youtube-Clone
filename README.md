@@ -8,14 +8,20 @@ A responsive, semantic HTML & CSS clone of YouTube’s main interface—complete
 
 ## Table of Contents
 
+* [Demo](#demo)
 * [Features](#features)
 * [Tech Stack](#tech-stack)
 * [Folder Structure](#folder-structure)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Customization](#customization)
-* [Contributing](#contributing)
-* [License](#license)
+
+---
+
+## Demo
+
+You can view a live demo here:
+👉 [GitHub Pages Preview](https://rip0sis.github.io/Youtube-Clone/youtube.htm)
 
 ---
 
@@ -55,7 +61,7 @@ A responsive, semantic HTML & CSS clone of YouTube’s main interface—complete
 ```
 .
 ├── README.md
-├── youtube.html
+├── <your_main_file>.html      # rename your main HTML file accordingly
 ├── styles/
 │   ├── general.css
 │   ├── header.css
