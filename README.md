@@ -21,7 +21,7 @@ A responsive, semantic HTML & CSS clone of YouTube’s main interface—complete
 ## Demo
 
 You can view a live demo here:
-👉 [GitHub Pages Preview](https://riposis.me/Youtube-Clone/)
+👉 [GitHub Pages Preview](https://riposis.me/Youtube/)
 
 ---
 
